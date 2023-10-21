@@ -116,3 +116,63 @@ ex (sinta-se livre pra explorar a forma que achar melhor na escrita e aprofundam
 
 4. Levante possíveis pontos de melhorias, falhas de segurança ou considerações sobre
    as telas testadas
+
+# Parte 2 - Cucumber + Appium + webIO
+
+- Módulos de testes divididos em Features baseado no BDD (Cucumber) integrado ao código
+
+    Facilidade de Versionamento, Integração via Github x ferramentas terceiras x código de automação, agrupamentos por @tags
+
+- Ferramenta de Automação Mobile (appium + WebIO)
+ 
+- [WebdriverIO](http://webdriver.io)
+- [Appium Docs](http://appium.io/docs/en/about-appium/intro/)
+ 
+
+## Installation
+
+- Installing Appium
+- Copy the .apk file into root project folder ./apps
+- Configure the wdio.android.app.conf.ts or wdio.ios.app.conf.ts according your devices
+
+- executar  `git clone https://......`
+- executar `yarn install`
+- executar tests `npm run android.app`  
+
+## Configurações 
+
+config.capabilities = [
+    {
+        platformName: 'Android',
+        maxInstances: 1,
+        // Configuração para dispositivo Fisico   
+        'appium:deviceName': '<ADB device Name>',
+        'appium:platformVersion': '10.0',
+        // Configuração para emulador
+        //'appium:deviceName': 'emulator-5554',
+        //'appium:platformVersion': '11.0',
+
+        'appium:orientation': 'PORTRAIT',
+        'appium:automationName': 'UiAutomator2',
+        // Caminho do APP 
+        'appium:app': join(process.cwd(), './apps/br_com_voltbras_wecharge_v11.6.4.apk'),
+        // @ts-ignore
+        'appium:appWaitActivity': 'br.com.voltbras.wecharge',
+        'appium:newCommandTimeout': 240,
+        'appium:noReset': true,
+        'appium:fullReset': false
+
+    },
+
+wdio.shared.conf.ts
+
+    mochaOpts: {
+        ui: "bdd",
+        /**
+         *  Gerenciar o Timeout geral da aplicação dependendo do hardware que esta executando  
+         */
+        timeout: 10 * 60 * 1000,  
+    },
+
+
+
