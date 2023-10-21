@@ -75,6 +75,19 @@ A partir disso temos uma breve parte de documentação:
 
 6. Crie uma Documentação no Readme explicando a proposta e as escolhas de teste feitas por você
 
+# Testes Unitarios / Integrados
+
+UT - DTOs
+UIT - Services realizados com Mock nas camadas (repositories e model) (Done)
+E2E - Chamadas ao Graphql fazendo os testes E2E no escopo de Feature por Feature.(com erro)
+Load/Stress - Mesmos cenarios utilizados no E2E acima, porem executados na ferramenta Jmeter (Pendente)
+
+Para executar os Testes JEST (UT,UIT e E2E)
+
+Executar o comando
+`npm test`
+
+
 # Parte 2 - Testes Manuais/automatizados de usabilidade
 
 Dado um dos nossos whitelabels:
