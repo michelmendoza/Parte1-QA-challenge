@@ -123,23 +123,23 @@ ex (sinta-se livre pra explorar a forma que achar melhor na escrita e aprofundam
 
     Facilidade de Versionamento, Integração via Github x ferramentas terceiras x código de automação, agrupamentos por @tags
 
-- Ferramenta de Automação Mobile (appium + WebIO)
+## Ferramenta de Automação Mobile (appium + WebIO)
  
 - [WebdriverIO](http://webdriver.io)
 - [Appium Docs](http://appium.io/docs/en/about-appium/intro/)
  
 
-## Installation
+# Installation
 
 - Installing Appium
 - Copy the .apk file into root project folder ./apps
-- Configure the wdio.android.app.conf.ts or wdio.ios.app.conf.ts according your devices
 
-- executar  `git clone https://......`
 - executar `yarn install`
-- executar tests `npm run android.app`  
+- executar tests `npm run android.app` or `npm run android.browser`
 
-## Configurações 
+# Configurações 
+
+- Configure the wdio.android.app.conf.ts or wdio.ios.app.conf.ts according your devices
 
 config.capabilities = [
     {
