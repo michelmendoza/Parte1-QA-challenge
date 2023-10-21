@@ -129,17 +129,27 @@ ex (sinta-se livre pra explorar a forma que achar melhor na escrita e aprofundam
 - [Appium Docs](http://appium.io/docs/en/about-appium/intro/)
  
 
-# Installation
+# Installation Appium
 
 - Installing Appium
-- Copy the .apk file into root project folder ./apps
+Install Appium
+Install Appium-doctor
+Install Android Studio
+Install Appium
+npm i --location=global appium
+appium driver install uiautomator2
+Install Adb (para devices fisicos)
+Configure JAVA_HOME e ANDROID_HOME
 
-- executar `yarn install`
+# Configurações
+
+- Copy the .apk file into root project folder ./apps
+- Git clone < Project >
+- executar `yarn install
+- Configure capabilities the wdio.android.app.conf.ts or wdio.ios.app.conf.ts according your devices
 - executar tests `npm run android.app` or `npm run android.browser`
 
-# Configurações 
 
-- Configure the wdio.android.app.conf.ts or wdio.ios.app.conf.ts according your devices
 
 config.capabilities = [
     {
