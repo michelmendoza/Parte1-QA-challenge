@@ -84,7 +84,7 @@ Load/Stress - Mesmos cenarios utilizados no E2E acima, porem executados na ferra
 
 Para executar os Testes JEST (UT,UIT e E2E)  
 
-2. **Rodar a Testes localmente**:
+**Rodar a Testes localmente**:
 
 `npm test`
 
