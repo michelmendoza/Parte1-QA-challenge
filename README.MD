@@ -133,21 +133,19 @@ ex (sinta-se livre pra explorar a forma que achar melhor na escrita e aprofundam
 
 - Installing Appium
 
-Install Appium
+- Install Appium-doctor
 
-Install Appium-doctor
+- Install Android Studio + Android SDK
 
-Install Android Studio + Android SDK
+- Install Appium
 
-Install Appium
+- npm i --location=global appium
 
-npm i --location=global appium
+- appium driver install uiautomator2
 
-appium driver install uiautomator2
+- Install Adb (para devices fisicos)
 
-Install Adb (para devices fisicos)
-
-Configure JAVA_HOME e ANDROID_HOME
+- Configure JAVA_HOME e ANDROID_HOME
 
 
 # Configurações
