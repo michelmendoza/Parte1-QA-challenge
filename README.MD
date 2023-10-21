@@ -83,7 +83,7 @@ A partir disso temos uma breve parte de documentação:
 
 - E2E - Chamadas ao Graphql fazendo os testes E2E no escopo de Feature por Feature.(com erro)
 
-- oad/Stress - Mesmos cenarios utilizados no E2E acima, porem executados na ferramenta Jmeter (Pendente)
+- Load/Stress - Mesmos cenarios utilizados no E2E acima, porem executados na ferramenta Jmeter e o Plugin para Graphql (Pendente)
 
 Para executar os Testes JEST (UT,UIT e E2E)  
 
