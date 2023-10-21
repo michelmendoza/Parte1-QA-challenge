@@ -152,7 +152,8 @@ ex (sinta-se livre pra explorar a forma que achar melhor na escrita e aprofundam
 
 - After Git clone < Project >
 - Copy the .apk file into root project folder ./apps
-- executar `yarn install
+- executar
+`npm test`
 - Configure capabilities the wdio.android.app.conf.ts or wdio.ios.app.conf.ts according your devices
 - executar tests `npm run android.app` or `npm run android.browser`
 
