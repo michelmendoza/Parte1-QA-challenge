@@ -77,13 +77,13 @@ A partir disso temos uma breve parte de documentação:
 
 # Testes Unitarios / Integrados
 
--UT - DTOs
+- UT - DTOs
 
--UIT - Services realizados com Mock nas camadas (repositories e model) (Done)
+- UIT - Services realizados com Mock nas camadas (repositories e model) (Done)
 
--E2E - Chamadas ao Graphql fazendo os testes E2E no escopo de Feature por Feature.(com erro)
+- E2E - Chamadas ao Graphql fazendo os testes E2E no escopo de Feature por Feature.(com erro)
 
--Load/Stress - Mesmos cenarios utilizados no E2E acima, porem executados na ferramenta Jmeter (Pendente)
+- oad/Stress - Mesmos cenarios utilizados no E2E acima, porem executados na ferramenta Jmeter (Pendente)
 
 Para executar os Testes JEST (UT,UIT e E2E)  
 
